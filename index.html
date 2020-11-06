@@ -1,14 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ブラウザのタブに表示されるタイトル</title>
+    <title>Document</title>
 </head>
 
 <body>
-    公開されるHTML
+    2020年6月にとった写真
+    <img src="./forest.jpg" alt="森の景色">
+    <div>
+        <label>サンプル色入力
+            <input type="color">
+        </label>
+    </div>
+    <div>
+        <label>サンプル値入力(スライドバー)
+            <input type="range" min="-100" max="400">
+        </label>
+    </div>
+    <fieldset>
+        <legend>サンプルチェックボックス</legend>
+        <label>
+            <input name="checkbox" type="checkbox">
+            選択肢0
+        </label>
+        <label>
+            <input name="checkbox" type="checkbox">
+            選択肢1
+        </label>
+        <label>
+            <input name="checkbox" type="checkbox">
+            選択肢2
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>サンプルラジオボタン</legend>
+        <label>
+            <input name="radio" type="radio">
+            選択肢0
+        </label>
+        <label>
+            <input name="radio" type="radio">
+            選択肢1
+        </label>
+        <label>
+            <input name="radio" type="radio">
+            選択肢2
+        </label>
+        <input type="file" accept="image/*">
+    </fieldset>
 </body>
 
 </html>
