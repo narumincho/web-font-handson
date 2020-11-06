@@ -1,0 +1,24 @@
+{
+  "name": "web-font-handson",
+  "version": "1.0.0",
+  "description": "web-font-handson",
+  "main": "htmlServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narumincho/web-font-handson.git"
+  },
+  "keywords": [],
+  "author": "narumincho <narumincho.starfy@gmail.com> (https://narumincho.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narumincho/web-font-handson/issues"
+  },
+  "homepage": "https://github.com/narumincho/web-font-handson#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
